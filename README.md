@@ -1,5 +1,10 @@
 ## Library API
 
+### Features
+- Authenticated book creation: `POST /api/books` secured with Sanctum tokens.
+- Search authors by book title or name: `GET /api/authors?search={query}`.
+- Interactive console helper: `php artisan author:create` asks for first/last name and creates the author.
+
 ### Requirements
 - PHP 8.2+
 - Composer
